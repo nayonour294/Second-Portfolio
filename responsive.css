@@ -1,0 +1,206 @@
+@media only screen and (max-width:1280px){
+    .services-row .cards {
+        gap: 2rem;
+    }
+
+    .about-progress-container .about-progress-row {
+        gap: 2rem;
+    }
+
+    .portfolio-row .portfolio-images .port-img:nth-child(1), .portfolio-row .portfolio-images .port-img:nth-child(2), .portfolio-row .portfolio-images .port-img:nth-child(3), .portfolio-row .portfolio-images .port-img:nth-child(4), .portfolio-row .portfolio-images .port-img:nth-child(5), .portfolio-row .portfolio-images .port-img:nth-child(6) {
+        padding: 1rem 1rem;
+    }
+
+    .portfolio-row .portfolio-images .port-img h1 {
+        font-size: 33px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h4 {
+        font-size: 23px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h5 {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+    .header-container .text p {
+        padding: 0 1rem;
+    }
+
+    .services-row .cards {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .about-progress-container {
+        margin-top: 4rem;
+    }
+
+    .about-progress-container .about-progress-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section {
+        width: 100%;
+    }
+
+    .progress-section {
+        width: 100%;
+    }
+
+    .portfolio-container .portfolio-row .portfolio-images {
+        grid-template-columns: auto;
+        gap: 3rem;
+    }
+
+    .portfolio-row .portfolio-images .port-img:nth-child(1), .portfolio-row .portfolio-images .port-img:nth-child(2), .portfolio-row .portfolio-images .port-img:nth-child(3), .portfolio-row .portfolio-images .port-img:nth-child(4), .portfolio-row .portfolio-images .port-img:nth-child(5), .portfolio-row .portfolio-images .port-img:nth-child(6) {
+        padding: 1rem 2rem;
+    }
+
+    .portfolio-row .portfolio-images .port-img h1 {
+        font-size: 40px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h4 {
+        font-size: 30px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h5 {
+        font-size: 24px;
+    }
+
+    .modal-dialog {
+        top: 40%;
+    }
+
+    
+}
+
+@media only screen and (max-width:560px) {
+    .portfolio-row .portfolio-images .port-img h1 {
+        font-size: 35px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h4 {
+        font-size: 25px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h5 {
+        font-size: 19px;
+    }
+}
+
+
+@media only screen and (max-width:428px) {
+
+    .header-container .text h1 {
+        font-size: 2rem;
+        padding: 0.8rem 1rem;
+    }
+
+    .header-container .text h3 {
+        font-size: 1.7rem;
+    }
+
+    .header-container .text h2 {
+        font-size: 1.7rem;
+    }
+
+    .header-container .text p {
+        font-size: 17px;
+    }
+
+    .header-container .text button {
+        padding: 0.8rem 2rem;
+        border: 1px solid var(--normal);
+    }
+
+    .service-container h3 {
+        font-size: 28px !important;
+    }
+
+    .services-row .card {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .portfolio-container h3 {
+        font-size: 28px !important;
+    }
+
+    .portfolio-row .portfolio-images .port-img h1 {
+        font-size: 23px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h4 {
+        font-size: 19px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h5 {
+        font-size: 14px;
+    }
+
+    .my-card-title h1 {
+        font-size: 25px;
+    }
+
+    .modal-dialog button {
+        font-size: 18px !important;
+    }
+
+    .modal-dialog {
+        top: 17%;
+    }
+
+    .portfolio-row .portfolio-images .port-img:nth-child(1), .portfolio-row .portfolio-images .port-img:nth-child(2), .portfolio-row .portfolio-images .port-img:nth-child(3), .portfolio-row .portfolio-images .port-img:nth-child(4), .portfolio-row .portfolio-images .port-img:nth-child(5), .portfolio-row .portfolio-images .port-img:nth-child(6) {
+        padding: 1rem 1rem;
+    }
+
+    .portfolio-row .portfolio-images .port-img h6 {
+        font-size: 14px;
+        padding: 0.4rem 0rem;
+    }
+
+}
+
+
+@media only screen and (max-width:375px) {
+    .services-row p {
+        font-size: 14px;
+    }
+
+    .about-section .text h4 {
+        font-size: 17px;
+    }
+
+    .about-section .text p {
+        margin-bottom: 0.7rem;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    .progress-section .bar .text h4 {
+        font-size: 14px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h1 {
+        font-size: 21px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h4 {
+        font-size: 16px;
+    }
+
+    .portfolio-row .portfolio-images .port-img h5 {
+        font-size: 10px;
+    }
+
+    .my-card-title h1 {
+        font-size: 15px;
+    }
+}
+
+
