@@ -218,7 +218,7 @@ img {
     margin-bottom: 1rem;
 }
 
-.services-row p {
+.services-row .card p {
     color: var(--normal);
 }
 
@@ -238,6 +238,19 @@ img {
     color: var(--normal);
     border: 1px solid var(--primary);
 }
+
+
+.services-row .card-font h4 {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.services-row p {
+    color: var(--normal);
+}
+
+
 
 /* Services Section End Here */
 

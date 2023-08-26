@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-back-cards {
+    position: relative;
+    perspective: 1000px;
+	transform-style: preserve-3d;
+	transition: 1s;
+}
+
+.font-card {
+    width: 28%;
+    height: 400px;
+    background: aquamarine;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    transition: 1s;
+	backface-visibility: hidden;
+    /* display: none; */
+
+}
+
+.font-card h4 {
+    font-size: 40px;
+    margin-bottom: 3rem;
+    transform: translateZ(60px);
+}
+
+.font-card p {
+    font-size: 25px;
+    transform: translateZ(60px);
+
+}
+
+.back-card {
+    width: 28%;
+    height: 400px;
+    background: aquamarine;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    transform: rotateY(-180deg);
+	transform-style: preserve-3d;
+	transition: 1s;
+	backface-visibility: hidden;
+    /* display: none; */
+
+}
+
+.font-back-cards:hover .font-card {
+	transform: rotateY(180deg);
+}
+
+
+.font-back-cards:hover .back-card {
+	transform: rotateY(0deg);
+}
+
+.back-card span i {
+    font-size: 25px;
+    padding: 0.6rem 0.8rem;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+    transform: translateZ(60px);
+}
+
+.back-card h4 {
+    font-size: 40px;
+    /* margin-bottom: 2rem; */
+}
+
+.back-card p {
+    font-size: 25px;
+
+}
+
+.back-card a {
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    /* margin-top: 4rem; */
+
+}
